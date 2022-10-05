@@ -59,7 +59,7 @@ Method: POST <br>
             "addr_sub_district": ""
         },
       "company": "NeuroGenius Co.,Ltd.",
-        "company_address": {
+      "company_address": {
             "addr_2_no": "944",
             "addr_2_room": "S24056",
             "addr_2_floor": "24",
