@@ -18,11 +18,15 @@ Method: GET <br>
 ### ตัวอย่าง Response
 ```json
 {
-    "HERO_ID": "1",
-    "HERO_IMG": "test.jpg",
-    "HERO_START": "2022-09-15 00:00:00",
-    "HERO_END": "2022-09-30 23:59:59",
-    "HERO_STATUS": "1",
-    "HERO_DELETED": "0"
+    "status": "success",
+    "result": [
+        {
+            "id": "1",
+            "name": "รับสมัครรุ่น 4",
+            "img": "hero_31363635303432323638.png",
+            "link": "https://www.neurogenius.com/geniusx/x4",
+            "link_text": "คลิกเพื่อสมัคร"
+        }
+    ]
 }
 ```
