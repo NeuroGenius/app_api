@@ -35,6 +35,10 @@ Method: POST <br>
 ```json
 {
     "status": "success",
-    "message": "OTP code is valid"
+    "message": "OTP code is valid",
+    "result": {
+        "user_phone": "0873574494",
+        "user_code": "HUTQWC"
+    }
 }
 ```
