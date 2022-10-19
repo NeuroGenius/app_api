@@ -34,6 +34,7 @@ Method: POST <br>
    "status": "success",
    "result": {
       "code": "ABCDEF",
+      "phone": "0871234567",
       "name_th": "ธงชัย ใจดี",
       "name_en": "Thongchai Jaidee",
       "firstname_th": "ธงชัย",
