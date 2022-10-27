@@ -23,7 +23,8 @@ Method: GET <br>
         {
             "id": "1",
             "name": "รับสมัครรุ่น 4",
-            "img": "hero_31363635303432323638.png",
+            "img": "hero_gnx4.png",
+            "img_full": "https://app.neurogenius.com/assets/images/hero/hero_gnx4.png",
             "link": "https://www.neurogenius.com/geniusx/x4",
             "link_text": "คลิกเพื่อสมัคร"
         }
