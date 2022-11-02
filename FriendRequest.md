@@ -1,0 +1,44 @@
+URL: https://app.neurogenius.com/api/geniusx_brainskill/friend_request <br>
+Method: POST <br>
+
+สำหรับแสดงรายการชื่อผู้ขอเป็นเพื่อน
+
+### Header
+| Field         | Type          | Description  |
+| ------------- |---------------| -------------|
+| Apikey        | String        | Your API Key |
+
+### ตัวอย่าง Request header
+```json
+{
+   "Apikey": "Your API Key",
+}
+```
+
+
+### Body
+| Field                 | Type          | Description             |
+| -------------         |---------------| ------------------------|
+| user_code             | String        | Code ผู้ใช้ [Required] |
+
+
+### ตัวอย่าง Request
+```json
+{
+    "user_code" : "UVWXYZ"
+}
+```
+
+### ตัวอย่าง Response
+```json
+{
+    "status": "success",
+    "message": "Friend request success",
+    "result": [
+        {
+            "user_code_friend": "ABCDEF",
+            "approved": "0"
+        }
+    ]
+}
+```
