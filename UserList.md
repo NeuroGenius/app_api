@@ -6,6 +6,12 @@ Method: GET <br>
 | ------------- |---------------| -------------|
 | Apikey        | String        | Your API Key |
 
+### Params
+| Key           | Type          | Description  |
+| ------------- |---------------| -------------|
+| gen           | number        | หากต้องการแสดงเฉพาะรุ่น ให้ใส่ param ex. https://app.neurogenius.com/api/geniusx_brainskill/user_list?gen=4 <br>หากไม่กำหนด param จะแสดงทั้งหมดทุกรุ่น |
+
+
 ### ตัวอย่าง Request header
 ```json
 {
