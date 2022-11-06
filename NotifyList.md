@@ -18,12 +18,14 @@ Method: POST <br>
 | Field                 | Type          | Description             |
 | -------------         |---------------| ------------------------|
 | to                    | String        | Code ผู้ใช้ที่ต้องการดึง [Required] |
+| type                  | Number        | ประเภทการแจ้งเตือน 1=ทั้งหมด 2=ส่วนตัว (default = 1) |
 
 
 ### ตัวอย่าง Request
 ```json
 {
-    "to" : "ABCDEF"
+    "to" : "ABCDEF",
+    "type" : "1"
 }
 ```
 
@@ -39,7 +41,9 @@ Method: POST <br>
             "from": "UVWXYZ",
             "title": "ทดสอบ",
             "message": "ทดสอบการแจ้งเตือน",
-            "posted": "2022-10-08 15:20:37"
+            "posted": "2022-10-08 15:20:37",
+            "read": 0,
+            "read_on": null
         }
     ]
 }
