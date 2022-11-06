@@ -33,6 +33,7 @@ Method: POST <br>
     "status": "success",
     "result":{
             "id": "1",
+            "type": "1",
             "to": "ABCDEF",
             "from": "UVWXYZ",
             "title": "ทดสอบ",
@@ -41,3 +42,5 @@ Method: POST <br>
         }
 }
 ```
+
+type : 1=public, 2=private
