@@ -19,6 +19,7 @@ Method: POST <br>
 | token             | String        | โทเค็นสำหรับตอบกลับกิจกรรมนี้ [Required] |
 | otp_code          | String        | รหัส OTP ใน SMS [Required] |
 | ref_code          | String        | Ref code คือการอ้างอิงของรหัสพร้อมรหัส OTP ใน SMS [Optional] |
+| player_id         | String        | PlayerID OneSignal [Optional] |
 
 
 
