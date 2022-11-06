@@ -37,7 +37,8 @@ Method: POST <br>
             "to": "ABCDEF",
             "from": "UVWXYZ",
             "title": "ทดสอบ",
-            "message": "ทดสอบการแจ้งเตือน",
+            "preview": "ทดสอบการแจ้งเตือน",
+            "message": "<p style=\"text-align:center\">นี่คือข้อความทดสอบการแจ้งเตือนทดสอบการแจ้งเตือน</p>",
             "posted": "2022-10-08 15:20:37"
         }
 }
