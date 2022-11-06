@@ -37,10 +37,11 @@ Method: POST <br>
         {
             "id": "1",
             "type": "1",
-            "to": "ABCDEF",
-            "from": "UVWXYZ",
+            "to": "ACFDER",
+            "from": "HUTQWC",
             "title": "ทดสอบ",
-            "message": "ทดสอบการแจ้งเตือน",
+            "preview": "ทดสอบการแจ้งเตือน",
+            "message": "<p style=\"text-align:center\">นี่คือข้อความทดสอบการแจ้งเตือนทดสอบการแจ้งเตือน</p>",
             "posted": "2022-10-08 15:20:37",
             "read": 0,
             "read_on": null
