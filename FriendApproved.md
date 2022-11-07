@@ -21,7 +21,7 @@ Method: POST <br>
 | -------------         |---------------| ------------------------|
 | user_code             | String        | Code ผู้ใช้ ที่เข้ามาอนุมัติ [Required] |
 | user_code_request     | String        | Code ผู้ใช้ที่ส่งคำขอเป็นเพื่อน [Required] |
-| approve               | String        | สถานะการอนุมัติ 1=อนุมัติ 2=ไม่อนุมัติ [Required] |
+| approve               | String        | สถานะการอนุมัติ Y=อนุมัติ N=ไม่อนุมัติ [Required] |
 
 
 ### ตัวอย่าง Request
