@@ -2,9 +2,10 @@
 URL: https://app.neurogenius.com/api/geniusx_brainskill/cms/{{CMS_NAME}} <br>
 Method: GET <br> 
 ### ตัวอย่างการเรียก URL {{CMS_NAME}} 
-term = ข้อตกลงและเงื่อนไขการใช้บริการ [ https://app.neurogenius.com/api/geniusx_brainskill/cms/term ] <br>
+terms = ข้อตกลงและเงื่อนไขการใช้บริการ [ https://app.neurogenius.com/api/geniusx_brainskill/cms/terms ] <br>
 privacy = นโยบายความเป็นส่วนตัว [ https://app.neurogenius.com/api/geniusx_brainskill/cms/privacy ] <br>
 help = ช่วยเหลือ [ https://app.neurogenius.com/api/geniusx_brainskill/cms/help ]
+tip = แนะนำการใช้แอป [ https://app.neurogenius.com/api/geniusx_brainskill/cms/tip ]
 
 ### Header
 | Field         | Type          | Description  |
