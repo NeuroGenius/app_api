@@ -78,7 +78,11 @@ Method: POST <br>
         "position": "Web Developer",
         "img": "nophoto.jpg",
         "img_fulllink": "https://app.neurogenius.com/assets/images/users/nophoto.jpg",
-        "active": "1"
+        "img_original": "https://app.neurogenius.com/assets/images/users/original/nophoto.png",
+        "player_id": "",
+        "push_token": "",
+        "active": "1",
+        "vcard": "https://app.neurogenius.com/digital/vcard/ABCDEF"
    }
 }
 ```
