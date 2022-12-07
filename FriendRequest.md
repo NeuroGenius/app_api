@@ -36,7 +36,7 @@ Method: POST <br>
     "message": "Friend request success",
     "result": [
         {
-            "user_code_friend": "ABCDEF",
+            "user_code_request": "ABCDEF",
             "approved": "0"
         }
     ]
